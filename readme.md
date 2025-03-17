@@ -27,9 +27,9 @@ An open-source registry for composable, reusable AI prompt templates and agents,
 
 ### **Installation and Distribution**
 - CLI commands for installation, search, and publishing:
-  - `ai-registry install clarity-judge`
-  - `ai-registry publish`
-- Support for Python (`pip`), Node.js (`npm`), and Docker.
+  - `promptmod install clarity-judge`
+  - `promptmod publish`
+  - `promptmod search email-classifier`
 
 ### **Interoperability**
 - **Model-Agnostic**: Works with OpenAI, Claude, Amazon Bedrock, Hugging Face, and others.
@@ -101,7 +101,7 @@ class ClarityJudgeResponse
 ### Usage
 ```
 
-import { cj } from "./promptmods/clarity-judge"
+import { cj } from "./promptmod/clarity-judge"
 import { hl } from "@human-layer"
 
 const example = "The technicians told the managers they made serious mistakes in their reports."
@@ -172,11 +172,12 @@ const response = await sg.invoke(example, {
 console.log(response.statement)
 
 ```
+## Additional Prompts Ideas to Add:
 * Defensiveness Judge
 * Grounding Eval
 * Delegation Eval
 * Writing Tone Modifier
-* Actionability Eval
+* Actionability Eval - is this task clear enough to be actioned?
 * Twitter Post Generator
 * Twitter Thread Generator
 * LinkedIn Post Generator
