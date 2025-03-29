@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "4ff94bf5c5984359",
+    "type": "split",
+    "children": [
+      {
+        "id": "d63069f79f9ccda5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebbf72ca04366c0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dotai/2-technical-design/architecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "architecture"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "18eeeae1cffbe2e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "160517e35f7a8ccc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8088d14b2692d37f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "272bbc3097f6ea80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fb16f925236e5da0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eadb1abc4beb7acb",
+    "type": "split",
+    "children": [
+      {
+        "id": "856891228333d205",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "895f074e138cc954",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "dotai/2-technical-design/architecture.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for architecture"
+            }
+          },
+          {
+            "id": "9cd1a1b051faa102",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "dotai/2-technical-design/architecture.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from architecture"
+            }
+          },
+          {
+            "id": "91758d94ca087bed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e87498bbf41c1d57",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dotai/2-technical-design/architecture.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of architecture"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ebbf72ca04366c0a",
+  "lastOpenFiles": [
+    "dotai/2-technical-design/requirements/README.md",
+    "dotai/README.md",
+    "dotai/2-technical-design/integrations/ide-integrations.md",
+    "dotai/2-technical-design/integrations/low-code-ai-flow-tools.md",
+    "dotai/2-technical-design/requirements/semantic-prompt-directory.md",
+    "dotai/2-technical-design/requirements/prompt-quality-control.md",
+    "dotai/2-technical-design/requirements/master-control-program.md",
+    "dotai/2-technical-design/requirements/human-feedback-system.md",
+    "dotai/2-technical-design/requirements/chrome-extension.md",
+    "dotai/1-context/target-users.md",
+    "dotai/1-context/README.md",
+    "dotai/1-context/project_conventions.md",
+    "dotai/1-context/project_context.md",
+    "dotai/2-technical-design/integrations/chrome-extension.md",
+    "dotai/2-technical-design/environments_deployments.md",
+    "dotai/2-technical-design/architecture.md",
+    "dotai/0-ai-config/README.md",
+    "dotai/0-ai-config/mcp.md",
+    "dotai/4-acceptance-reports/security/security-report-template.md",
+    "dotai/3-development/product/product-requirement-template.md",
+    "dotai/3-development/implementation/implementation-template.md",
+    "dotai/4-acceptance-reports/qa-report-template.md",
+    "dotai/4-acceptance-reports/security",
+    "dotai/4-acceptance-reports/README.md",
+    "dotai/3-development/product",
+    "dotai/3-development/implementation",
+    "dotai/3-development/folder-locks.md",
+    "dotai/3-development/README.md",
+    "dotai/2-technical-design/security.md",
+    "dotai/2-technical-design/requirements",
+    "dotai/2-technical-design/integrations",
+    "dotai/4-acceptance-reports",
+    "dotai/3-development",
+    "dotai/2-technical-design",
+    "dotai/1-context",
+    "dotai/0-ai-config"
+  ]
+}

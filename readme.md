@@ -15,6 +15,10 @@ An open-source registry for composable, reusable AI prompt templates and agents,
   - **LangChain**
   - **LangGraph**
   - **Crew**
+- First-class support for both TypeScript and Python implementations:
+  - Type-safe interfaces and SDK in TypeScript
+  - Pythonic API design following PEP standards
+  - Cross-language compatibility guarantees
 - Ensure ease of use with CLI tools, APIs, and version control.
 
 ---
@@ -36,11 +40,41 @@ An open-source registry for composable, reusable AI prompt templates and agents,
 ### **Interoperability**
 - **Model-Agnostic**: Works with OpenAI, Claude, Amazon Bedrock, Hugging Face, and others.
 - **Framework Support**:
-  - **Bedrock Agents**: Native support for Amazon Bedrock’s agent-based workflows.
+  - **Bedrock Agents**: Native support for Amazon Bedrock's agent-based workflows.
   - **LangChain**: Simplified integration for chaining prompts and agents.
   - **LangGraph**: To
 
-  ---
+---
+
+## Quick Start
+
+### The Old Way
+```python
+# Need to parse data from emails? Time to start hacking...
+pip install langchain
+# Now spend hours writing prompts, testing, and tweaking...
+```
+
+### The PromptMod Way
+```python
+pip install langchain
+pip install promptmod
+
+# One line to get the best community-vetted prompt for email parsing
+from promptmod import use
+email_parser = use("email_parsing")  # Automatically selects best prompt from community
+
+# That's it! Now you can focus on your actual task
+results = email_parser.parse(my_email)
+```
+
+Benefits:
+- ✅ Save hours of prompt engineering time
+- ✅ Use battle-tested prompts from the community
+- ✅ Automatic version management and updates
+- ✅ Framework-agnostic - works with your existing tools
+
+---
 
 ## Initial Prompt Examples
 
