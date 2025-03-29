@@ -183,8 +183,6 @@ Automatically selects best prompt from community
 
 
 # That's it! Now you can focus on your actual task
-results = email_parser.parse(my_email)
-```
 
 Benefits:
 - ✅ Save hours of prompt engineering time
