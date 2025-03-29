@@ -166,7 +166,7 @@ if __name__ == "__main__":
 ```python
 import os
 import pydantic
-from promptlove import aiTool
+import promptlove
 
 pl = PromptLove(
   bias = 'performance' # (other options cost, stability)
